@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(32,74,15);
+background: linear-gradient(90deg, rgba(32,74,15,1) 0%, rgba(36,50,79,1) 0%, rgba(170,117,24,1) 40%, rgba(253,119,29,1) 64%, rgba(118,100,122,1) 100%, rgba(99,69,252,1) 100%);
+}
+
+.container{
+    
+    text-align: center;
+    width: 100vw;
+    max-width: 2000px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.container h1{
+    font-size: 10vw;
+    font-family: 'Caveat', cursive;
+    margin-bottom: 3rem;
+    text-shadow: 1px 2px 5px wheat;
+}   
+
+.input-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.textinput{
+    width: 70%;
+}
+
+#inputText{
+    width: 70%;
+    outline: none;
+    border: none;
+    background-color: brown;
+    border-radius: 24px;box-shadow: 1px 2px 10px black;
+    padding: 1rem;    
+}
+.submit{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+#toDoList{
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    line-height: 2rem;
+}
+
+#add, #clear{
+    width: 30%;
+    padding: 10px;
+    border-radius: 24px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: wheat;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: 1px 2px 5px wheat;
+    align-self: baseline;
+}
+
+#add:hover, #clear:hover{
+    background-color: rgb(112, 93, 33);
+    color: black;
+}
+
+@media screen and (max-width:900px) {
+    #add, #clear{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    #add, #clear{
+        width: 100%;
+    }
+    #inputText{
+        width: 90%;
+    }
+}
+
