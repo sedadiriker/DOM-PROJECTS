@@ -1,1 +1,1 @@
-<video src="./todoApp.mov"></video>
+<<img src="./todoApp.gif" width="600px" alt="">
