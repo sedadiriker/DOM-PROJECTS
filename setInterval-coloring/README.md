@@ -1,1 +1,1 @@
-<img src="./setInterval-coloring/8ehdga.gif" alt="">
+<img src="./8ehdga.gif" alt="">
